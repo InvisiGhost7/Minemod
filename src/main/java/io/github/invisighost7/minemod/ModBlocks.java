@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
+import io.github.invisighost7.minemod.block.GlowGlassBlock;
+
 import java.util.function.Function;
 
 public class ModBlocks {
@@ -32,8 +34,8 @@ public class ModBlocks {
 
 
     }
-    public static final Block GLOW_GLASS = register("glow_glass", Block:: new,
-            BlockBehaviour.Properties.ofFullCopy(Blocks.GLASS).lightLevel(state -> 15));
+    public static final Block GLOW_GLASS = register("glow_glass", GlowGlassBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.GLASS));
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
                 .register((creativeTab) -> creativeTab.accept(ModBlocks.GLOW_GLASS));

@@ -1,3 +1,5 @@
 {
-  "block.minemod.glow_glass": "Glow Glass"
+  "block.minemod.glow_glass": "Glow Glass",
+  "block.minemod.glow_glass.active": "Active",
+  "block.minemod.glow_glass.inactive": "Inactive"
 }

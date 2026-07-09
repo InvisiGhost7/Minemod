@@ -3,6 +3,9 @@
   "package": "io.github.invisighost7.minemod.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [],
+  "client": [
+    "LevelRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

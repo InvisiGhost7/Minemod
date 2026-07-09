@@ -12,6 +12,9 @@
   "entrypoints": {
     "main": [
       "io.github.invisighost7.minemod.Main"
+    ],
+    "client": [
+      "io.github.invisighost7.minemod.client.MinemodClient"
     ]
   },
   "mixins": [

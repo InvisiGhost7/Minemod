@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": {
+    "active=false": {
+      "model": "minemod:block/glow_glass"
+    },
+    "active=true": {
       "model": "minemod:block/glow_glass"
     }
   }
