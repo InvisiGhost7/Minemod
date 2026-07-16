@@ -1,7 +1,10 @@
 .gradle/
+.gradle-home/
 build/
 out/
 .idea/
 .vscode/
 *.DS_Store
 run/
+run.zip
+*.class
